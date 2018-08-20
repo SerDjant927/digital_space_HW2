@@ -1,0 +1,114 @@
+.header {
+    border-width: 0px;
+    padding: 5px;
+    text-align: right;
+    border-color: #1D7373;
+    font-family: serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    border-style: solid;
+    background-color: white;
+    position: relative;
+    background: url('../pics/background__header.png');  /*фоновое изображение урезано, не пойму как подогнать блок под его размер*/
+    background-repeat: no-repeat;
+    height: 500px;
+   }
+.avatar{
+   position: absolute;
+   bottom:-180px;
+   right: 500px;
+   
+   
+   /*bottom: inherit;*/
+
+}
+.body{
+    background:#383838;
+    font-family: serif;
+    font-style: italic;
+    color: #333333;
+    font-size: 20px;
+    font-weight:bold;
+    text-align: center;
+    font-style: normal;
+    background-color: white;
+    /*background: url('../pics/BG.png'); изображение временно, просто для контраста*/
+   }
+
+
+.text__menu {
+    text-decoration: dotted;  
+   }
+
+.about{
+  margin-top:180px;
+   font-family: serif;
+   font-style: italic;
+   color: #333333;
+   font-size: 20px;
+   font-weight:bold;
+   text-align: center;
+   font-style: normal;
+   height: 500px;
+
+}
+
+.content{
+    font-family: serif;
+    background-color: #383838;
+    color: #333333;
+    font-size: 25px;
+    font-weight:300;
+    text-align: center;
+    height:500px;
+    background-color: white;
+    /*background: url('../pics/BG.png');*/
+   }
+
+.news__link{
+   text-decoration:none;
+   color: #333333;
+   list-style-type: none;
+   }
+      
+/*.news__text{
+   color:white;
+
+   }*/
+
+.slider__list{
+   list-style-type: none;
+   }
+.slider {
+   
+   }
+.slider_dir{
+
+}
+.slider__item{
+   display:inline;
+   padding: 10px;
+   }
+.footer{
+    border-width: 0px;  /*футер не прижимается к низу*/
+    border-color: #1D7373;
+    border-style: solid;
+    background-color: #383838;
+    height: 80px;
+    background-color: white;
+    /*background: url('../pics/BG.png');*/ 
+    /*clear: both;*/
+   }  
+.footer__contacts{
+  list-style-type: none;
+
+}
+.footer__contacts__item{
+   display: inline;
+   padding: 10px;
+
+}
+.contacts{
+   text-decoration:none; /*ссылке в футере как и сам футер почему то съехали вверх*/
+   }
