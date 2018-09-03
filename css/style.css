@@ -1,31 +1,31 @@
 .body{
-    background:#383838;
-    font-family: serif;
-    font-style: italic;
-    color: #333333;
-    font-size: 20px;
-    font-weight:bold;
-    text-align: center;
-    font-style: normal;
-    background-color: white;
+   background:#383838;
+   font-family: serif;
+   font-style: italic;
+   color: #333333;
+   font-size: 20px;
+   font-weight:bold;
+   text-align: center;
+   font-style: normal;
+   background-color: white;
  }
 .header {
-    border-width: 0px;
-    padding: 5px;
-    text-align: right;
-    border-color: #1D7373;
-    font-family: serif;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 20px;
-    border-style: solid;
-    background-color: white;
-    position: relative;
-    background: url('../img/background__header.png');      
-    background-repeat: no-repeat;
-    height: 500px;
+   border-width: 0px;
+   padding: 5px;
+   text-align: right;
+   border-color: #1D7373;
+   font-family: serif;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 20px;
+   border-style: solid;
+   background-color: white;
+   position: relative;
+   background: url('../img/background__header.png');      
+   background-repeat: no-repeat;
+   height: 500px;
  }
- .header_myname{
+.header_myname{
   margin: 0px;
   padding: 0px;
   position: absolute;
@@ -36,18 +36,18 @@
 
  }
  
- .header_menu{
-    list-style-type: none;
+.header_menu{
+   list-style-type: none;
 
 
  }
 
- .header_menu_item{
+.header_menu_item{
     float:right;
     margin-right: 5px;
  }
 
- .lionid_kroll_div{
+.lionid_kroll_div{
    position: absolute;
    bottom:280px;
    right: 400px;
@@ -55,7 +55,7 @@
 
  }
 
- .lionid_kroll_text{
+.lionid_kroll_text{
 
  }
 
@@ -140,12 +140,12 @@
    list-style: none;
  }
 
- .nav span{
-  width:20px;
-  height:20px;
-  background: #000;
-  color: grey;
-  font-size: 20px;
+.nav span{
+   width:20px;
+   height:20px;
+   background: #000;
+   color: grey;
+   font-size: 20px;
  }
 
  .news__link{
@@ -156,17 +156,17 @@
  }
 
 .footer{
-    border-width: 0px;  
-    border-color: #1D7373;
-    border-style: solid;
-    background-color: #383838;
-    height: 80px;
-    background-color: white;
-    /*clear: both;*/
+   border-width: 0px;  
+   border-color: #1D7373;
+   border-style: solid;
+   background-color: #383838;
+   height: 80px;
+   background-color: white;
+   /*clear: both;*/
  }  
 
 .footer__contacts{
-  list-style-type: none;
+   list-style-type: none;
 
  }
 
