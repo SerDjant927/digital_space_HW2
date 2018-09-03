@@ -1,3 +1,14 @@
+.body{
+    background:#383838;
+    font-family: serif;
+    font-style: italic;
+    color: #333333;
+    font-size: 20px;
+    font-weight:bold;
+    text-align: center;
+    font-style: normal;
+    background-color: white;
+ }
 .header {
     border-width: 0px;
     padding: 5px;
@@ -13,6 +24,16 @@
     background: url('../img/background__header.png');      
     background-repeat: no-repeat;
     height: 500px;
+ }
+ .header_myname{
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  right:350px;
+  top: 100px;
+  color:white;
+  font-size: 40px;
+
  }
  
  .header_menu{
@@ -48,7 +69,7 @@
 
  }
 
-.body{
+/*.body{
     background:#383838;
     font-family: serif;
     font-style: italic;
@@ -58,7 +79,7 @@
     text-align: center;
     font-style: normal;
     background-color: white;
- }
+ }*/
 
 
 .text__menu {
@@ -78,49 +99,60 @@
 
  }
 
-.content{
+/*.content{
     font-family: serif;
     background-color: #383838;
     color: #333333;
     font-size: 25px;
-    font-weight:300;
+    font-weight:300px;
     text-align: center;
     height:500px;
     background-color: white;
-    /*background: url('../pics/BG.png');*/
- }
-
-.news__link{
-   text-decoration:none;
-   color: #333333;
-   list-style-type: none;
- }
+ }*/
 
 .slider__list{
    list-style-type: none;
  }
 
 .slider {
+  width: 200px;
+  height: 300px;
+  overflow:hidden;
    
  }
 
 .slider_dir{
+  width: 999999999px;
+  height: 200px;
+  /*overflow:hidden;*/
 
  }
 
 .slider__item{
-   display:inline;
-   padding: 10px;
+   /*display:inline;*/
+   float:left;
+   margin:0 20px 0 0;
+   /*padding: 10px;*/
+   height: 200px;
+   width: 200px;
+   background:#333;
+   color:white;
+   list-style: none;
+ }
+ .news__link{
+   text-decoration:none;
+   color: white;
+   list-style-type: none;
+   font-size: 30px;
  }
 
 .footer{
-    border-width: 0px;  /*футер не прижимается к низу*/
+    border-width: 0px;  
     border-color: #1D7373;
     border-style: solid;
     background-color: #383838;
     height: 80px;
     background-color: white;
-    /*background: url('../pics/BG.png');*/ 
     /*clear: both;*/
  }  
 
@@ -136,5 +168,5 @@
  }
 
 .contacts{
-   text-decoration:none; /*ссылке в футере как и сам футер почему то съехали вверх*/
+   text-decoration:none; 
  }
