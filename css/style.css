@@ -25,16 +25,48 @@
    background-repeat: no-repeat;
    height: 500px;
  }
-.header_myname{
+.title{
   margin: 0px;
   padding: 0px;
   position: absolute;
-  right:350px;
-  top: 100px;
+  right:400px;
+  top: 50px;
   color:white;
-  font-size: 40px;
+  font-size: 35px;
 
  }
+.title_h1{
+   
+  
+
+ }
+
+.title_h2{
+  
+
+ }
+ 
+ .button__title{
+  position: absolute;
+  top:300px;
+  right: 300px;
+  background-color:#fff;
+  padding:10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size:15px;
+  text-decoration:none;
+  color:#333;
+  /*border: solid 0px #333;
+  /*background-image: linear-gradient(bottom, rgb(171,27,27) 0%, rgb(212,51,51) 100%);*/
+  border-radius: 5px;*/
+ }
+ .button__title::after {
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    left: 120px; top:-2px; /* Положение треугольника */
+    border: 20px solid transparent; /* Прозрачные границы */
+    border-left: 20px solid white; /* Добавляем треугольник */
+
  
 .header_menu{
    list-style-type: none;
@@ -47,7 +79,7 @@
     margin-right: 5px;
  }
 
-.lionid_kroll_div{
+/*.lionid_kroll_div{
    position: absolute;
    bottom:280px;
    right: 400px;
@@ -57,11 +89,11 @@
 
 .lionid_kroll_text{
 
- }
+ }*/
 
 .avatar{
    position: absolute;
-   bottom:-180px;
+   bottom:-50px;
    right: 480px;
    
    
@@ -140,13 +172,14 @@
    list-style: none;
  }
 
-.nav span{
+/*.nav span{
    width:20px;
    height:20px;
    background: #000;
    color: grey;
    font-size: 20px;
- }
+   margin: 0 10px 0 0;
+ }*/
 
  .news__link{
    text-decoration:none;
