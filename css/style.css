@@ -69,17 +69,20 @@
   }
 
  
-.header_menu{
+.menu_list{
    list-style-type: none;
 
 
  }
 
-.header_menu_item{
+.menu_item{
     float:right;
     margin-right: 5px;
  }
 
+.menu_link {
+    text-decoration: dotted;  
+ }
 /*.lionid_kroll_div{
    position: absolute;
    bottom:280px;
@@ -115,9 +118,6 @@
  }*/
 
 
-.text__menu {
-    text-decoration: dotted;  
- }
 
 .about{
   margin-top:180px;
