@@ -1,6 +1,6 @@
 .body{
    background:#383838;
-   font-family: serif;
+   font-family: SF UI Display;
    font-style: italic;
    color: #333333;
    font-size: 20px;
@@ -8,10 +8,11 @@
    text-align: center;
    font-style: normal;
    background-color: white;
+   /*width:1350px;*/
  }
 .header {
    border-width: 0px;
-   padding: 5px;
+   padding: 1px;
    text-align: right;
    border-color: #1D7373;
    font-family: serif;
@@ -29,19 +30,25 @@
   margin: 0px;
   padding: 0px;
   position: absolute;
-  right:400px;
+  right:350px;
   top: 50px;
   color:white;
-  font-size: 35px;
+  font-size: 35px;*/
 
  }
 .title_h1{
-   
-  
+  font-family: SF UI Display;
+  text-align: center;
+  font-size: 90px;
 
  }
 
 .title_h2{
+  font-family: SFProDisplay;
+  color:white;
+  text-align: center;
+  margin-top: -30px;
+  font-size: 30px;
   
 
  }
@@ -52,20 +59,20 @@
   right: 300px;
   background-color:#fff;
   padding:10px;
-  font-family: 'Open Sans', sans-serif;
-  font-size:15px;
+  font-family: SFProDisplay;
+  font-size:25px;
   text-decoration:none;
   color:#333;
   /*border: solid 0px #333;
   /*background-image: linear-gradient(bottom, rgb(171,27,27) 0%, rgb(212,51,51) 100%);*/
-  border-radius: 5px;*/
+  border-radius: 3px;
  }
  .button__title::after {
     content: ''; 
     position: absolute; /* Абсолютное позиционирование */
-    left: 120px; top:-2px; /* Положение треугольника */
-    border: 20px solid transparent; /* Прозрачные границы */
-    border-left: 20px solid white; /* Добавляем треугольник */
+    left: 165px; top:-3px; /* Положение треугольника */
+    border: 27px solid transparent; /* Прозрачные границы */
+    border-left: 27px solid white; /* Добавляем треугольник */
   }
 
  
@@ -77,7 +84,10 @@
 
 .menu_item{
     float:right;
-    margin-right: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+    padding:0;
+    border-bottom:1px dotted white;
  }
 
 .menu_link {
@@ -97,11 +107,9 @@
 
 .avatar{
    position: absolute;
-   bottom:-50px;
-   right: 480px;
-   
-   
-   /*bottom: inherit;*/
+   bottom:-400px;
+   right: 150px;
+  /*bottom: inherit;*/
 
  }
 
@@ -128,7 +136,7 @@
    font-weight:bold;
    text-align: center;
    font-style: normal;
-   height: 500px;
+   height: 400px;
 
 
  }
@@ -245,3 +253,77 @@
 .contacts{
    text-decoration:none; 
  }
+
+ .skill{
+  height: 400px;
+ }
+
+ .skill__item{
+position: relative;
+background-color: #FFF;
+margin-top: 20px;
+border-radius: 5px;
+list-style: none;
+height: 40px;
+}
+
+.skill__value{
+position: absolute;
+background-color: #333333;
+display: inline-block;
+height: 100%;
+border-radius: 5px 0 0 5px;
+}
+.skill_ul{
+  text-align: left;
+}
+
+.skill__value-10{
+width: 10%
+}
+.skill__value-20{
+width: 20%
+}
+.skill__value-30{
+width: 30%
+}
+.skill__value-40{
+width: 40%
+}
+.skill__value-50{
+width: 50%
+}
+.skill__value-60{
+width: 60%
+}
+.skill__value-60{
+width: 60%
+}
+.skill__value-70{
+width: 70%
+}
+.skill__value-80{
+width: 80%
+}
+.skill__value-90{
+width: 90%
+}
+.skill__value-100{
+width: 100%
+}
+
+.skill__title{
+position: absolute;
+top: 9px;
+left: 20px;
+font-family: 'SF UI Display';
+font-size: 16px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+
+color: white;
+}
