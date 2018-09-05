@@ -66,6 +66,7 @@
     left: 120px; top:-2px; /* Положение треугольника */
     border: 20px solid transparent; /* Прозрачные границы */
     border-left: 20px solid white; /* Добавляем треугольник */
+  }
 
  
 .header_menu{
@@ -129,6 +130,7 @@
    font-style: normal;
    height: 500px;
 
+
  }
 
 /*.content{
@@ -142,35 +144,70 @@
     background-color: white;
  }*/
 
-.slider__list{
-   list-style-type: none;
- }
-
 .slider {
-  width: 200px;
-  height: 300px;
-  overflow:hidden;
-   
- }
-
-.slider_dir{
-  width: 999999999px;
+  /*width: 9999999px;*/
   height: 200px;
   /*overflow:hidden;*/
+  
+}
 
- }
+.slider_dir{
+  width: 900px;
+  height: 200px;
+  overflow:hidden;
+  float: left;
+
+}
+
+.carousel-list{
+   /*list-style-type: none;*/
+   list-style: none;
+   width: 1000px;
+   padding:0px;
+   position: relative;
+
+
+}
+
 
 .slider__item{
    /*display:inline;*/
    float:left;
-   margin:0 20px 0 0;
-   /*padding: 10px;*/
+   margin-right:25px;
+   display: block;
+   /*padding: 10px;
    height: 200px;
    width: 200px;
-   background:#333;
+   /*background:#333;
    color:white;
    list-style: none;
+   border: 1px;
+   border-color: #fff;*/
  }
+ .slider_arrow_left, .slider_arrow_right {
+    float: left;
+    display: block;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    padding: 5px;
+    margin-top: 50px;
+}
+.slider_arrow_left, .slider_arrow_right {
+    cursor: pointer;
+    background-color: grey;
+}
+ 
+.slider_arrow_left {
+    margin-right: 25px;
+}
+ 
+.slider_arrow_right {
+    margin-left: 25px;
+    position: absolute;
+    right: 300px;
+}
+
+
 
 /*.nav span{
    width:20px;
@@ -181,12 +218,8 @@
    margin: 0 10px 0 0;
  }*/
 
- .news__link{
-   text-decoration:none;
-   color: white;
-   list-style-type: none;
-   font-size: 30px;
- }
+ 
+ 
 
 .footer{
    border-width: 0px;  
