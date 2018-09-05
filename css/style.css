@@ -107,8 +107,9 @@
 
 .avatar{
    position: absolute;
-   bottom:-400px;
-   right: 150px;
+   top:275px;
+   left: 175px;
+   
   /*bottom: inherit;*/
 
  }
