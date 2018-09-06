@@ -89,6 +89,7 @@
  }
 
 .menu_item{
+
     float:right;
     margin-right: 10px;
     font-size: 20px;
@@ -103,7 +104,7 @@
 
 .avatar{
    position: absolute;
-   top:270px;
+   top:250px;
    left:200px;
 
  }
@@ -126,7 +127,8 @@
 .discette{
   position:absolute;
   top:350px;
-  left:900px;
+  left:800px;
+  overflow: hidden;
 }
 /*.skittles{
   position: absolute;
@@ -151,7 +153,7 @@
 
 .slider {
   /*width: 9999999px;*/
-  height: 200px;
+  height: 500px;
   /*overflow:hidden;*/
   
 }
@@ -162,6 +164,9 @@
   overflow:hidden;
   float: left;
   margin:0 auto;
+  /*border:2px solid;
+  border-color: black;*/
+
 
 }
 
@@ -191,7 +196,7 @@
    border: 1px;
    border-color: #fff;*/
  }
- .slider_arrow_left, .slider_arrow_right {
+ /*.slider_arrow_left, .slider_arrow_right {
     float: left;
     display: block;
     border: 1px solid grey;
@@ -214,7 +219,7 @@
     margin-left: 25px;
     position: absolute;
     right: 200px;
-}
+}*/
 
 
 .footer{

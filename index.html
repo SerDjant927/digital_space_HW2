@@ -5,8 +5,9 @@
  <title>Sergey.P</title>
  <link rel="stylesheet" href="css/normalize.css">
  <link rel="stylesheet" href="css/style.css">
+ <!--link rel="stylesheet" href="css/slick-theme.css"-->
  <link rel="stylesheet" href="css/slick.css">
- <link rel="stylesheet" href="css/slick-theme.css">
+ 
  
 
  
@@ -19,11 +20,11 @@
    <div class="menu">
        <ul class="menu__list">
          <li class="menu_item">     
-         <a href="#" class="menu_link">Связь</a></li>
+         <a href="#" class="menu_link" data-link="footer">Связь</a></li>
          <li class="menu_item">   
-         <a href="#"class="menu_link">Портфолио</a></li>
+         <a href="#"class="menu_link" data-link="slider">Портфолио</a></li>
          <li class="menu_item">   
-         <a href="#"class="menu_link">Обо мне</a></li></ul></div>
+         <a href="#"class="menu_link" data-link="about">Обо мне</a></li></ul></div>
          <button class="button__title">Написать мне</button>
              <div class="title">
                <h1 class="title_h1">Sergey Poroshin </h1>
@@ -34,7 +35,7 @@
                  </div>
                  </div>
 
- <div class="about">
+ <div class="about" data-block="about">
   <div class="discette"><img src="img/diskette.png" alt="дискета"></div>
   <!--div class="skittles"><img src="img/skittles.png" alt="скиттлс"></div-->
   <div class="about__skill">
@@ -72,10 +73,10 @@
 
 
  
- <div class="slider">
+ <div class="slider" data-block="slider">
   <div class="slider_dir">
-     <div class="slider_arrow_left"><span>Влево</span></div>
-     <div class="slider_arrow_right"><span>Вправо</span></div>
+     <!--div class="slider_arrow_left"><span>Влево</span></div>
+     <div class="slider_arrow_right"><span>Вправо</span></div-->
        <ul class="slick-slider">
        <li class="slider__item"><img src="pics/portfolio_pics.png" alt="/portfolio_pics"><p></p></li>
        <li class="slider__item"><img src="pics/portfolio_pics.png" alt="/portfolio_pics"><p></p></li>
@@ -92,7 +93,7 @@
   
 
         
- <div class="footer">
+ <div class="footer" data-block="footer">
    <ul class="footer__contacts">
      <li class="footer__contacts__item">     
      <a target="_blank" href="https://vk.com/id82025602"class="contacts"><img src="img/icon_vk.png" alt="vk"></a></li>
