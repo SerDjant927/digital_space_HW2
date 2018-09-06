@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
  	
  if($('.slider').length > 0) {
 
@@ -15,4 +15,9 @@ $(document).ready(function(){
  console.log(count);
 
  	}
- });
+ });*/
+$(document).ready(function(){
+  $('.slider_dir).slick({
+    setting-name: setting-value
+  });
+});
